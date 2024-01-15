@@ -2,9 +2,9 @@ const age = 30;
 function isAdult (age) {
  let lessthan18;
   if (age<18) {
-  lessthan18 = "true";
+  lessthan18 = true;
   } else {
-  lessthan18 = "false";
+  lessthan18 = false;
   }
   return lessthan18
 }
@@ -15,9 +15,9 @@ const student1Score = 77;
 function didStudentPass (score) {
   let greaterThan70;
   if (student1Score > 70){
-    greaterThan70 = "True";
+    greaterThan70 = true;
   } else {
-    greaterthan70 = "false";
+    greaterthan70 = false;
   }
   return greaterThan70
 }
